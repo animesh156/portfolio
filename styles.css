@@ -25,12 +25,7 @@ h2 {
 
 #about {
 
-height: 850px;
-display: flex;
-justify-content: center;
-flex-direction: column;
-text-align: center;
-
+height: auto;
 
 }
 
@@ -76,11 +71,18 @@ text-align: center;
  font-family: "Acme";
   height:auto;
   width: auto;
+ 
+}
+
+
+
+.project-div {
   display: flex;
-  flex-direction: row;
+  flex-direction:row;
   flex-wrap: wrap;
+  height: auto;
+  width: auto;
   justify-content:space-evenly;
-  
 }
 
 #contact {
@@ -94,7 +96,7 @@ text-align: center;
   height: 252px;
 }
 
-footer h2 {
+ h2 {
   font-family: Honk;
 }
 
@@ -103,7 +105,7 @@ footer h2 {
 
 
 html {
-  scroll-padding-top: 3rem;
+  scroll-padding-top: 4rem;
 }
 
 .icons {
