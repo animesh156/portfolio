@@ -1,5 +1,5 @@
 #home {
-  height: 638px;
+  height: 800px;
   background-image: url('./assets/home-bg.jpg');
   background-size:cover;
 
@@ -24,7 +24,7 @@ h2 {
 
 
 #about {
-
+margin-top: 25px;
 height: auto;
 
 }
