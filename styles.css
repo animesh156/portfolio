@@ -18,6 +18,11 @@ body {
  
 }
 
+a:focus {
+  color:orangered ;
+ 
+}
+
 h2 {
   font-family: Kalam;
 }
