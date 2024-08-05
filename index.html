@@ -237,216 +237,245 @@
   <section id="project" class="scroll-smooth mt-8 ">
     <h2 class="text-5xl text-pink-400 text-center mt-8 .prj">My Projects</h2>
 
-    <div class="project-div mt-4">
-
-      <div class="card  w-80  border border-gray-100 shadow-lg hover:shadow-cyan-500 rounded-lg mt-8">
-
-        <img class="rounded-t-lg" src="./assets/book-store.png" alt="project-img" />
-
-        <div class="prj-abt p-5 bg-stone-800 text-cyan-400 rounded-lg">
-
-          <h5 class="mb-2 text-3xl font-bold tracking-tight text-rose-500 ">Book-Store</h5>
-
-          <p class="mb-3 font-normal ">It is the simple book store app with the functionality of CRUD operations.
-
-          </p>
-          <p class="mb-3 font-normal "> It is made using tech stack such as <bold class="text-orange-500">React Js(Frontend), Express Js & Mongod
-            DB(backend)</bold>.</p>
-          <a href="https://book-store-rho-seven.vercel.app/" target="_blank"
-            class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-            Live
-          </a>
-          <a href="https://github.com/animesh156/Book-Store" target="_blank"
-            class="inline-flex items-center ml-4 px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-            Code
-          </a>
-        </div>
-      </div>
+    <div id="tab-container" class="tab-container">
+      <div class="container-fluid">
+        <div class="text-center col-md-10 col-md-offset-1">
 
 
-      <div class="card  w-80  border border-gray-100 shadow-lg hover:shadow-cyan-500  rounded-lg mt-8">
+    <input id="tab1" type="radio" name="tabs" checked>
+    <label for="tab1" style="color: white;">Frontend</label>
 
-        <img class="rounded-t-lg" src="./assets/music-player.png" alt="" />
+    <input id="tab2" type="radio" name="tabs">
+    <label for="tab2" style="color: white;">Full Stack</label>
 
-        <div class="prj-abt p-5 bg-stone-800 text-cyan-400 rounded-lg">
-
-          <h5 class="mb-2 text-3xl font-bold tracking-tight text-rose-500 ">Music Player</h5>
-
-          <p class="mb-3 font-normal ">Simple music player made using tech stack <bold class="text-orange-500">Reactjs & tailwindCSS</bold></p>
-          <p class="mb-3 font-normal ">Users can listen to available songs in this player with the feature of next & prev song button</p>
-          <a href="https://animesh156.github.io/Music-Player/" target="_blank"
-            class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-            Live
-          </a>
-          <a href="https://github.com/animesh156/Music-Player" target="_blank"
-            class="inline-flex items-center ml-4 px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-            Code
-          </a>
-        </div>
-      </div>
-
-
-
+   
       
-      <div class="card  w-80  border border-gray-100 shadow-lg hover:shadow-cyan-500  rounded-lg mt-8">
 
-        <img class="rounded-t-lg" src="./assets/restaurant.png" alt="" />
+    <div id="content1" class="mt-4 tab-content">
+       <div class="project-div mt-4">
 
-        <div class="prj-abt p-5 bg-stone-800 text-cyan-400 rounded-lg">
+       
 
-          <h5 class="mb-2 text-3xl font-bold tracking-tight text-rose-500  ">Restaurant Page</h5>
 
-          <p class="mb-3 font-normal">A restaurant page made using <bold class="text-orange-500">ReactJs, tailwindCSS & react-router</bold>.</p>
+        <div class="card  w-80  border border-gray-100 shadow-lg hover:shadow-cyan-500  rounded-lg mt-8">
+
+          <img class="rounded-t-lg" src="./assets/music-player.png" alt="" />
+  
+          <div class="prj-abt p-5 bg-stone-800 text-cyan-400 rounded-lg">
+  
+            <h5 class="mb-2 text-3xl font-bold tracking-tight text-rose-500 ">Music Player</h5>
+  
+            <p class="mb-3 font-normal ">Simple music player made using tech stack <bold class="text-orange-500">Reactjs & tailwindCSS</bold></p>
+            <p class="mb-3 font-normal ">Users can listen to available songs in this player with the feature of next & prev song button</p>
+            <a href="https://animesh156.github.io/Music-Player/" target="_blank"
+              class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+              Live
+            </a>
+            <a href="https://github.com/animesh156/Music-Player" target="_blank"
+              class="inline-flex items-center ml-4 px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+              Code
+            </a>
+          </div>
+        </div>
+
+        <div class="card  w-80  border border-gray-100 shadow-lg hover:shadow-cyan-500  rounded-lg mt-8">
+
+          <img class="rounded-t-lg" src="./assets/restaurant.png" alt="" />
+  
+          <div class="prj-abt p-5 bg-stone-800 text-cyan-400 rounded-lg">
+  
+            <h5 class="mb-2 text-3xl font-bold tracking-tight text-rose-500  ">Restaurant Page</h5>
+  
+            <p class="mb-3 font-normal">A restaurant page made using <bold class="text-orange-500">ReactJs, tailwindCSS & react-router</bold>.</p>
+            
+            <p class="mb-3 font-normal">It's simple webpage where user can see the available dishes from menu & can also book table through contact section.
+            </p>  
           
-          <p class="mb-3 font-normal">It's simple webpage where user can see the available dishes from menu & can also book table through contact section.
-          </p>  
-        
-          <a href="https://animesh156.github.io/Restaurant-Website/" target="_blank"
-            class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-            Live
-          </a>
-          <a href="https://github.com/animesh156/Restaurant-Website" target="_blank"
-            class="inline-flex items-center ml-4 px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-            Code
-          </a>
+            <a href="https://animesh156.github.io/Restaurant-Website/" target="_blank"
+              class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+              Live
+            </a>
+            <a href="https://github.com/animesh156/Restaurant-Website" target="_blank"
+              class="inline-flex items-center ml-4 px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+              Code
+            </a>
+          </div>
         </div>
-      </div>
 
 
-    
+        <div class="card  w-80  border border-gray-100 shadow-lg hover:shadow-cyan-500  rounded-lg mt-8">
 
-      <div class="card  w-80  border border-gray-100 shadow-lg hover:shadow-cyan-500  rounded-lg mt-8">
-
-        <img class="rounded-t-lg" src="./assets/weather-app.png" alt="" />
-
-        <div class="prj-abt p-5 bg-stone-800 text-cyan-400 rounded-lg">
-
-          <h5 class="mb-2 text-3xl font-bold tracking-tight text-rose-500 ">Weather-App</h5>
-
-          <p class="mb-3 font-normal">It is simple web based weather app which gives the weather information of the city
-            or country.
-
-          </p>
-          <p class="mb-3 font-normal"> It is built using <bold class="text-orange-500">React Js & uses open weather-map api</bold> in backend.</p>
-          <a href="https://animesh156.github.io/Weather-App/" target="_blank"
-            class="inline-flex items-center px-3 py-2  text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-            Live
-          </a>
-          <a href="https://github.com/animesh156/Weather-App" target="_blank"
-            class="inline-flex items-center  ml-4 px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-            Code
-          </a>
-
+          <img class="rounded-t-lg" src="./assets/weather-app.png" alt="" />
+  
+          <div class="prj-abt p-5 bg-stone-800 text-cyan-400 rounded-lg">
+  
+            <h5 class="mb-2 text-3xl font-bold tracking-tight text-rose-500 ">Weather-App</h5>
+  
+            <p class="mb-3 font-normal">It is simple web based weather app which gives the weather information of the city
+              or country.
+  
+            </p>
+            <p class="mb-3 font-normal"> It is built using <bold class="text-orange-500">React Js & uses open weather-map api</bold> in backend.</p>
+            <a href="https://animesh156.github.io/Weather-App/" target="_blank"
+              class="inline-flex items-center px-3 py-2  text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+              Live
+            </a>
+            <a href="https://github.com/animesh156/Weather-App" target="_blank"
+              class="inline-flex items-center  ml-4 px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+              Code
+            </a>
+  
+          </div>
         </div>
-      </div>
 
 
+        <div class="card  w-80 h-auto  border border-gray-100 shadow-lg hover:shadow-cyan-500  rounded-lg mt-8">
 
-      <div class="card  w-80 h-auto  border border-gray-100 shadow-lg hover:shadow-cyan-500  rounded-lg mt-8">
-
-        <img class="rounded-t-lg" src="./assets/todo.png" alt="" />
-
-        <div class="prj-abt p-5 bg-stone-800 text-cyan-400 rounded-lg">
-
-          <h5 class="mb-2 text-3xl font-bold tracking-tight text-rose-500 ">ToDo App</h5>
-
-          <p class="mb-3 font-normal  ">It is simple todo app where user can add,edit & delete their daily tasks.
-          </p>
-          <p class="mb-3 font-normal  ">It is built using <bold class="text-orange-500">ReactJs , localStorage & context api</bold> </p>
-
-          <a href="https://animesh156.github.io/TODO/" target="_blank"
-            class="inline-flex items-center px-3 py-2  text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-            Live
-          </a>
-          <a href="https://github.com/animesh156/TODO" target="_blank"
-            class="inline-flex items-center  ml-4 px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-            Code
-          </a>
+          <img class="rounded-t-lg" src="./assets/todo.png" alt="" />
+  
+          <div class="prj-abt p-5 bg-stone-800 text-cyan-400 rounded-lg">
+  
+            <h5 class="mb-2 text-3xl font-bold tracking-tight text-rose-500 ">ToDo App</h5>
+  
+            <p class="mb-3 font-normal  ">It is simple todo app where user can add,edit & delete their daily tasks.
+            </p>
+            <p class="mb-3 font-normal  ">It is built using <bold class="text-orange-500">ReactJs , localStorage & context api</bold> </p>
+  
+            <a href="https://animesh156.github.io/TODO/" target="_blank"
+              class="inline-flex items-center px-3 py-2  text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+              Live
+            </a>
+            <a href="https://github.com/animesh156/TODO" target="_blank"
+              class="inline-flex items-center  ml-4 px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+              Code
+            </a>
+          </div>
         </div>
-      </div>
 
+        <div class="card  w-80 h-auto  border border-gray-100 shadow-lg hover:shadow-cyan-500  rounded-lg mt-8">
 
-
-      <div class="card  w-80 h-auto  border border-gray-100 shadow-lg hover:shadow-cyan-500  rounded-lg mt-8">
-
-        <img class="rounded-t-lg" src="./assets/currency.png" alt="" />
-
-        <div class="prj-abt p-5 bg-stone-800 text-cyan-400 rounded-lg">
-
-          <h5 class="mb-2 text-3xl font-bold tracking-tight text-rose-500 ">Currency Converter</h5>
-
-          <p class="mb-3 font-normal  ">It is the simple currency converter which converts the given currency amount to other user's choice of courrency amount.
-          </p>
-          <p class="mb-3 font-normal  ">It is built using <bold class="text-orange-500">ReactJs & currency Api</bold></p>
-
-          <a href="https://animesh156.github.io/CurrencyConverter/" target="_blank"
-            class="inline-flex items-center px-3 py-2  text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-            Live
-          </a>
-          <a href="https://github.com/animesh156/CurrencyConverter" target="_blank"
-            class="inline-flex items-center  ml-4 px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-            Code
-          </a>
+          <img class="rounded-t-lg" src="./assets/currency.png" alt="" />
+  
+          <div class="prj-abt p-5 bg-stone-800 text-cyan-400 rounded-lg">
+  
+            <h5 class="mb-2 text-3xl font-bold tracking-tight text-rose-500 ">Currency Converter</h5>
+  
+            <p class="mb-3 font-normal  ">It is the simple currency converter which converts the given currency amount to other user's choice of courrency amount.
+            </p>
+            <p class="mb-3 font-normal  ">It is built using <bold class="text-orange-500">ReactJs & currency Api</bold></p>
+  
+            <a href="https://animesh156.github.io/CurrencyConverter/" target="_blank"
+              class="inline-flex items-center px-3 py-2  text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+              Live
+            </a>
+            <a href="https://github.com/animesh156/CurrencyConverter" target="_blank"
+              class="inline-flex items-center  ml-4 px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+              Code
+            </a>
+          </div>
         </div>
-      </div>
 
 
-      <div class="card  w-80 h-auto  border border-gray-100 shadow-lg hover:shadow-cyan-500  rounded-lg mt-8">
+        <div class="card  w-80 h-auto  border border-gray-100 shadow-lg hover:shadow-cyan-500  rounded-lg mt-8">
 
-        <img class="rounded-t-lg" src="./assets/qr-code.png" alt="" />
-
-        <div class="prj-abt p-5 bg-stone-800 text-cyan-400 rounded-lg">
-
-          <h5 class="mb-2 text-3xl font-bold tracking-tight text-rose-500 ">QR Code Generator App</h5>
-
-          <p class="mb-3 font-normal  ">It is the simple QR code generator app which generates random qr code for any
-            url or text.
-          </p>
-          <p class="mb-3 font-normal  ">It is built using  <bold class="text-orange-500">HTML, CSS , JS & JavaScript library for QR code.</bold></p>
-
-          <a href="https://animesh156.github.io/QR-Code-Generator/" target="_blank"
-            class="inline-flex items-center px-3 py-2  text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-            Live
-          </a>
-          <a href="https://github.com/animesh156/QR-Code-Generator" target="_blank"
-            class="inline-flex items-center  ml-4 px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-            Code
-          </a>
+          <img class="rounded-t-lg" src="./assets/qr-code.png" alt="" />
+  
+          <div class="prj-abt p-5 bg-stone-800 text-cyan-400 rounded-lg">
+  
+            <h5 class="mb-2 text-3xl font-bold tracking-tight text-rose-500 ">QR Code Generator App</h5>
+  
+            <p class="mb-3 font-normal  ">It is the simple QR code generator app which generates random qr code for any
+              url or text.
+            </p>
+            <p class="mb-3 font-normal  ">It is built using  <bold class="text-orange-500">HTML, CSS , JS & JavaScript library for QR code.</bold></p>
+  
+            <a href="https://animesh156.github.io/QR-Code-Generator/" target="_blank"
+              class="inline-flex items-center px-3 py-2  text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+              Live
+            </a>
+            <a href="https://github.com/animesh156/QR-Code-Generator" target="_blank"
+              class="inline-flex items-center  ml-4 px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+              Code
+            </a>
+          </div>
         </div>
-      </div>
 
 
-      <div class="card  w-80   border border-gray-100 shadow-lg hover:shadow-cyan-500  rounded-lg mt-8">
+        <div class="card  w-80   border border-gray-100 shadow-lg hover:shadow-cyan-500  rounded-lg mt-8">
 
-        <img class="rounded-t-lg" src="./assets/calc.png" alt="" />
-
-        <div class="prj-abt p-5 bg-stone-800 text-cyan-400 text-pretty rounded-lg">
-
-          <h5 class="mb-2 text-3xl font-bold tracking-tight text-rose-500 ">Calculator App</h5>
-
-          <p class="mb-3 font-normal ">It is the simple calculator app where we can do some basic calculations like
-            add,sub,multi & div.</p>
-          <p class="mb-3 font-normal "> It is made using <bold class="text-orange-500">HTML, CSS & Vanilla JS.</bold> It uses the property of JS to do
-            calculations.</p>
-
-          <a href="https://animesh156.github.io/Simple-Calculator/" target="_blank"
-            class="inline-flex items-center px-3 py-2  text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-            Live
-          </a>
-          <a href="https://github.com/animesh156/Simple-Calculator" target="_blank"
-            class="inline-flex items-center  ml-4 px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-            Code
-          </a>
+          <img class="rounded-t-lg" src="./assets/calc.png" alt="" />
+  
+          <div class="prj-abt p-5 bg-stone-800 text-cyan-400 text-pretty rounded-lg">
+  
+            <h5 class="mb-2 text-3xl font-bold tracking-tight text-rose-500 ">Calculator App</h5>
+  
+            <p class="mb-3 font-normal ">It is the simple calculator app where we can do some basic calculations like
+              add,sub,multi & div.</p>
+            <p class="mb-3 font-normal "> It is made using <bold class="text-orange-500">HTML, CSS & Vanilla JS.</bold> It uses the property of JS to do
+              calculations.</p>
+  
+            <a href="https://animesh156.github.io/Simple-Calculator/" target="_blank"
+              class="inline-flex items-center px-3 py-2  text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+              Live
+            </a>
+            <a href="https://github.com/animesh156/Simple-Calculator" target="_blank"
+              class="inline-flex items-center  ml-4 px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+              Code
+            </a>
+          </div>
         </div>
-      </div>
+
+  
+  
 
 
-
+       </div>
      
 
+     
+      
+    </div>
 
+
+    <div id="content2" class="mt-4 tab-content">
+
+      <div class="project-div mt-4">
+
+        <div class="card  w-80  border border-gray-100 shadow-lg hover:shadow-cyan-500 rounded-lg mt-8">
+
+          <img class="rounded-t-lg" src="./assets/book-store.png" alt="project-img" />
+  
+          <div class="prj-abt p-5 bg-stone-800 text-cyan-400 rounded-lg">
+  
+            <h5 class="mb-2 text-3xl font-bold tracking-tight text-rose-500 ">Book-Store</h5>
+  
+            <p class="mb-3 font-normal ">It is the simple book store app with the functionality of CRUD operations.
+  
+            </p>
+            <p class="mb-3 font-normal "> It is made using tech stack such as <bold class="text-orange-500">React Js(Frontend), Express Js & Mongod
+              DB(backend)</bold>.</p>
+            <a href="https://book-store-rho-seven.vercel.app/" target="_blank"
+              class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+              Live
+            </a>
+            <a href="https://github.com/animesh156/Book-Store" target="_blank"
+              class="inline-flex items-center ml-4 px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+              Code
+            </a>
+          </div>
+        </div>
+
+       
+      </div>
+      
+    </div>
+
+
+  </div> 
+</div> 
 
     </div>
+      
 
   </section>
 
