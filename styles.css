@@ -1,11 +1,8 @@
 #home {
   height: 800px;
-  background-image: url('./assets/home-bg.jpg');
-  background-size:cover;
-
-} 
-
-
+  background-image: url("./assets/home-bg.jpg");
+  background-size: cover;
+}
 
 .card {
   margin-top: 15px;
@@ -13,99 +10,82 @@
 
 #about p {
   font-family: Yatra One;
- 
 }
 
 a:focus {
-  color:orangered ;
- 
+  color: orangered;
 }
 
 h2 {
   font-family: Kalam;
 }
 
-
 #about {
-margin-top: 25px;
-height: auto;
-
+  margin-top: 25px;
+  height: auto;
 }
 
- .abt {
- width: auto;
+.abt {
+  width: auto;
   word-break: break-word;
   word-wrap: break-word;
   overflow-wrap: break-word;
-
 }
 
 .cont {
- display: flex;
- justify-content: center;
-   text-align: center;
-   margin: auto;
-   height: auto;
-   border: 2px solid;
-   border-radius: 5px;
-   top: 10px;
-  
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  height: auto;
+  border: 2px solid;
+  border-radius: 5px;
+  top: 10px;
 }
 
 .tech {
   display: flex;
   justify-content: center;
   text-align: center;
-  flex-direction:row;
+  flex-direction: row;
   margin: auto;
   flex-wrap: wrap;
- 
+
   align-content: space-around;
 }
-
-
-
 
 .div2 {
   word-wrap: break-word;
 }
 
 #project {
- font-family: "Acme";
-  height:auto;
-  width: auto;
- 
-}
-
-
-
-.project-div {
- display: flex;
- flex-direction:row;
- flex-wrap: wrap;
+  font-family: "Acme";
   height: auto;
   width: auto;
-  justify-content:space-evenly;
+}
+
+.project-div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: auto;
+  width: auto;
+  justify-content: space-evenly;
 }
 
 #contact {
-
-  height:auto;
+  height: auto;
   width: auto;
-  background-image: url('./assets/footer-bg.jpg');
+  background-image: url("./assets/footer-bg.jpg");
   background-size: cover;
 }
 .prj-abt {
   height: 252px;
 }
 
- h2 {
+h2 {
   font-family: Honk;
 }
-
-
-
-
 
 html {
   scroll-padding-top: 4rem;
@@ -114,28 +94,25 @@ html {
 .icons {
   display: flex;
   flex-direction: row;
-  justify-content:space-evenly;
+  justify-content: space-evenly;
   width: auto;
   text-align: center;
   padding: 100px 0;
-
-  
   height: 300px;
 }
-
 
 #tab-container {
   margin-top: 20px;
   margin-bottom: 20px;
   .tab-content {
-	display: none;
-	padding: 20px 0 0;
+    display: none;
+    padding: 20px 0 0;
   }
   input {
     display: none;
-    
+
     &:checked {
-      &+label {
+      & + label {
         color: #bd235d;
       }
     }
@@ -147,11 +124,11 @@ html {
     &:not(:first-of-type) {
       border-left: 2px solid #991a48;
       @media screen and (max-width: 480px) {
-        border-left: none;
+        border-left: 2px solid #991a48;
       }
     }
     @media screen and (max-width: 480px) {
-      display: block;
+      display: inline-block;
     }
     &:hover {
       color: #bd235d;
@@ -160,40 +137,28 @@ html {
   }
   #tab1 {
     &:checked {
-      &~#content1 {
+      & ~ #content1 {
         display: block;
       }
     }
   }
   #tab2 {
     &:checked {
-      &~#content2 {
+      & ~ #content2 {
         display: block;
       }
     }
   }
-  #tab3 {
-    &:checked {
-      &~#content3 {
-        display: block;
-      }
-    }
-  }
-  #tab4 {
-    &:checked {
-      &~#content4 {
-        display: block;
-      }
-    }
-  }
+
   .card-body {
     width: 100%;
     background: #fff;
-    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16),
+      0 2px 10px 0 rgba(0, 0, 0, 0.12);
     .card-title {
-    padding-top: 20px;
-    text-transform: uppercase;
-    font-weight: 700;
+      padding-top: 20px;
+      text-transform: uppercase;
+      font-weight: 700;
     }
     .card-description {
       padding-bottom: 20px;
@@ -206,5 +171,3 @@ html {
     }
   }
 }
-
-
