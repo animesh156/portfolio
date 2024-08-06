@@ -5,9 +5,7 @@
 
 } 
 
-body {
-  background-color: black;
-}
+
 
 .card {
   margin-top: 15px;
@@ -135,7 +133,7 @@ html {
   }
   input {
     display: none;
-    color: white;
+    
     &:checked {
       &+label {
         color: #bd235d;
